@@ -20,10 +20,10 @@ syn match logstashBraces   "\v\}" contained
 
 syn keyword logstashOperator in contained
 syn keyword logstashOperator not contained
-syn keyword logstashOperator not contained
 syn keyword logstashOperator and contained
 
 syn keyword logstashConditional if contained
+syn keyword logstashConditional else contained
 
 syn keyword logstashBoolean true contained
 syn keyword logstashBoolean false contained
@@ -61,6 +61,7 @@ syn keyword logstashPlugin imap contained
 syn keyword logstashPlugin invalid_input contained
 syn keyword logstashPlugin irc contained
 syn keyword logstashPlugin jmx contained
+syn keyword logstashPlugin kafka contained
 syn keyword logstashPlugin log4j contained
 syn keyword logstashPlugin lumberjack contained
 syn keyword logstashPlugin pipe contained
@@ -193,6 +194,7 @@ syn keyword logstashPlugin mongodb contained
 syn keyword logstashPlugin nagios contained
 syn keyword logstashPlugin nagios_nsca contained
 syn keyword logstashPlugin null contained
+syn keyword logstashPlugin opensearch contained
 syn keyword logstashPlugin opentsdb contained
 syn keyword logstashPlugin pagerduty contained
 syn keyword logstashPlugin pipe contained
